@@ -1,3 +1,61 @@
-body {
-    background-color: blueviolet;
+// ----------  Mobile Layout ----------  // 
+
+// ---------- Left Side ---------- //
+
+header {
+    background-color: #00ADB5;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: column;
+    justify-content: center;
+    
+}
+
+.picture {
+    width:150px; 
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 0px;
+}
+
+.profile-pic {
+    position: relative;
+    border: solid 1px red;
+    
+}
+
+
+.left-side {
+    background-color: #222831;
+    color: #EEEEEE
+}
+
+p {
+    border: solid 1px yellow;
+    margin-bottom: 0px;
+}
+
+
+h1 {
+    font-size: 6rem;
+    border: solid 1px black;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+// ---------- Right Side ---------- // 
+
+.right-side {
+    background-color: #EEEEEE;
+    color: black
 }
